@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": false,
+    "noEmit": true,
+    "types": ["vitest/globals", "vite-plugin-svgr/client"]
+  },
+  "include": ["src"]
+}
